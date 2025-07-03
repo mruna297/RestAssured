@@ -16,7 +16,7 @@ public class Main {
    Response res= RestAssured.get("");
    res.getStatusCode();
    RestAssured.baseURI="https://rahulshetty.com";
-   given().accept()
+   given().accept();
     }
 
 }
